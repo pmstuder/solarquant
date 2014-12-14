@@ -1,0 +1,606 @@
+/*  
+Theme Name: Clientside Default v2
+Theme URI: http://clientside.cnet.com/
+Description: The default theme for the Clientside developer blog at cnet.com
+Version: 2
+Author: Aaron Newton
+Author URI: http://clientside.cnet.com
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* -- Clear Fix -- */
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix {display: inline-table;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+/* -- Float Buster -- */
+.float-buster {clear: both; height: 0; line-height: 0;}
+
+html {
+  background: url(art/site_back.gif);
+	height: 100%;
+}
+body {
+  background: url(art/site_back.gif);
+  font: 12px Verdana, Helvetica, Arial, sans-serif;
+	line-height: 18px;
+	height:100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Trebuchet MS", Trebuchet, Verdana, Arial, Helvetica, sans-serif;
+}
+input, textarea {
+		 
+}
+#wrapper {
+  margin: 0 auto;
+  width: 812px;
+	background: url(art/content_back.png) !important;
+	background: url(art/content_back.gif);
+
+/*	  width: 803px;
+    position: relative;
+    min-height: 90%;
+    height: 90%;
+    voice-family: "\"}\"";
+    voice-family: inherit;
+    height: auto;	*/
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/*	header area	*/
+#header {
+	width: 100%;
+	background-color: #414141;
+}
+#logospace {
+	width: 809px;
+  margin: 0 auto;
+	height: 61px;
+}
+#logo {
+	padding: 12px 0px 0px 12px;
+}
+#redball {
+	float: right;
+	margin: 8px 20px 0px 0px;
+}
+/*	header > nav	*/
+#navbar {
+	background-color: #676767;
+	border: 1px solid #414141;
+	border-top: 1px solid #000;
+	height: 16px;
+}
+#navContent {
+  margin: 0 auto;
+	position:relative;
+	width: 806px;
+}
+#navbar #navLinks {
+	float: left;
+	padding-left: 8px;
+	width: 597px;
+	background: url(art/top_nav_back.gif);
+	border: solid #414141;
+	border-width: 0px 1px 0px 1px;
+	height:16px;
+	line-height:0px;
+	margin: 0px;
+}
+#navbar #navLinks img {
+	margin: 4px 12px 0px 12px;
+}
+#navbar #navLinks #about {
+	margin: 0px 12px 0px 12px;
+	float: right;
+}
+#navbar #navLinks #about img {
+	border: none;
+}
+/*	search	*/
+#navbar #searchBlock form {
+	display: inline;
+	top: 0px !important;
+	position: relative;
+	top: 2px;
+}
+#navbar input#searchInput, #navbar input#qsearch__in {
+	height: 11px;
+	background-color: #bcbcbc;
+	color: #5e5e5e;
+	border: 1px solid #414141;
+}
+#navbar #searchBlock {
+	margin: 0px -4px 0px 0px;
+	position: relative;
+	float: right;
+}
+/*	IE7 only hack. yuck.	*/
+*:first-child+html #navbar #searchBlock {
+	margin-top: -1px;
+	margin-right: 2px;
+}
+#searchform input, #dw__search input {
+	font: 9px Verdana, Helvetica, Arial, sans-serif;
+	padding: 0px 0px 1px 2px;
+	margin-right: 2px;
+	position: relative;
+	top: -2px;
+}
+*:first-child+html #navbar #searchform input, *:first-child+html #navbar #dw__search input {
+	top: 0px;
+}
+*:first-child+html #navbar #searchform #searchInput, *:first-child+html #navbar #dw__search #searchInput {
+	top: -1px;
+}
+
+
+/*	footer	*/
+#pageFooter {
+  margin: 0 auto;
+	width: 812px !important;
+	width: 816px;
+	position:relative;
+	left: 0px !important;
+	left: 2px;
+	background: url(art/content_footer.png) no-repeat top left !important;
+	background: url(art/content_footer.gif) no-repeat top left;
+	height: 80px;
+}
+#pageFooter div.links {
+	padding: 8px 20px 0px 20px;
+}
+#pageFooter div.links p {
+	font-size: 10px !important;
+	padding-top: 8px;
+}
+
+#pageFooter div.links p a {
+	color: #932a00;
+}
+/*	body	*/
+/*	body > left col	*/
+#leftCol {
+	width: 565px;
+	overflow: visible !important;
+	overflow: hidden;
+	float: left;
+	margin: 10px 20px 10px 20px !important;
+	margin: 10px 20px 10px 10px;
+}
+#leftCol a {
+	color: #016da6;
+}
+#leftCol p {
+	margin: 0px 0px 15px 0px;
+	clear: both;
+}
+#leftCol ul {
+	list-style: none;
+	padding: 0px 0px 10px 2px;
+}
+#leftCol ul li {
+	background: url(art/raquo_black.gif) left 5px no-repeat;
+	padding: 0px 0px 4px 15px;
+}
+#leftCol dl {
+	padding: 0px 0px 10px 2px;
+}
+#leftCol dl dt {
+	border-bottom: 1px solid #ccc;
+	margin: 0px 0px 4px 0px;
+}
+#leftCol dl dd {
+	padding: 0px 0px 10px 8px;
+}
+/*	body > left col > doors/listings	*/
+div.searchResults h1 {
+	width: 567px;
+	position: relative;
+	left: -16px;
+	padding: 5px 19px 10px 19px;
+	margin: 0px 0px 10px 0px;
+	border-bottom: 1px solid #e5e5e5;
+}
+div.navigation {
+	background-color: #f3f3f0;
+	border: solid #e5e5e5;
+	border-width: 1px 0px 1px 0px;
+	width: 567px;
+	position: relative;
+	left: -16px;
+	padding: 5px 19px 5px 19px;
+	margin: 8px 0px 10px 0px;
+	font-size: 10px;
+}
+div.bumpup {
+	margin-top:-11px !important;
+}
+div.navigation div.alignleft {
+	float: left;
+}
+div.navigation div.alignright {
+	float: right;
+}
+
+div.excerpt {
+	padding-bottom: 30px;
+}
+div.excerpt h3.title a, div.post h1.title a, div.wiki h1 a {
+	display: block;
+	position: relative;
+	height: 30px;
+	width: 637px;
+	left: -52px;
+	background: url(art/post_header.png) no-repeat !important;
+	background: url(art/post_header.gif) no-repeat;
+	padding: 5px 8px 0px 12px !important;
+	z-index: 1;
+	margin-bottom: 6px;
+	color: #545454 !important;
+	font-size: 18px !important;
+}
+div.excerpt h3.title a:hover, div.post h1.title a:hover {
+	text-decoration: none;
+}
+div.excerpt div.footer, div.post div.footer {
+	background-color: #f3f3f0;
+	border: solid #e5e5e5;
+	border-width: 1px 0px 1px 0px;
+	width: 567px;
+	position: relative;
+	left: -16px;
+	padding: 5px 19px 5px 19px;
+	margin: 8px 0px 10px 0px;
+	font-size: 10px;
+}
+div.excerpt div.footer div.links, div.post div.footer div.links {
+	margin-top: 4px;
+}
+div.excerpt div.footer div.comments {
+	margin-top: 4px;
+	float: right;
+}
+div.footer div.byline {
+	margin-top: 4px;
+	float: right;
+}
+/*	leftCol > post content	*/
+div.postContent {
+	width: 565px;
+	overflow: hidden;
+}
+div.post div.byline_top {
+	font-size: 10px;
+	float: right;
+}
+#fxTarget, .fxTarget {
+	position: absolute;
+	display: block;
+	visibility: hidden;
+	width: 100px;
+	border: 1px solid black;
+	background-color: #f1f1f1;
+	background: url(art/example-back.gif) center no-repeat;
+	height: 100px;
+}
+dt.stretchtoggle {
+	margin: 0px !important;
+	padding: 3px 6px 0px 12px !important;
+	border: none !important;
+	color: #545454;
+	width: 512px;
+	height: 97px;
+	background-color: #eeeeee;
+	background-image: url('accordion_toggle.png');
+	cursor:hand;
+}
+dt.stretchtoggle p {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+dd.stretcher {
+	margin:0px !important;
+	padding: 0px 0px 0px 8px !important;
+}
+dt.3stretchtoggle {
+	margin: 0px !important;
+	padding: 3px 6px 0px 12px !important;
+	border: none !important;
+	color: #545454;
+	width: 512px;
+	height: 27px;
+	background-color: #000000;
+	background-image: url('accordion_toggle.png');
+	background-image: url('accordion_toggle.gif');
+	background: url('accordion_toggle.png') no-repeat top left !important;
+	background: url('accordion_toggle.gif') no-repeat top left;
+	cursor:hand;
+}
+dt.3stretchtoggle p {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+dt.2stretchtoggle {
+    font-family : Arial,Tahoma, Helvetic, Verdana, sans-serif;
+    font-size : 18px;
+    font-weight : Bold;
+    color : #000000;
+    background-color: #eeeeee;
+    background-image: url('accordion_toggle.png');
+     text-decoration: none;
+     line-height: 140%;
+     cursor: pointer;
+}
+/*	comments	*/
+div.post div.comments {
+	margin-top: 20px;
+}
+h3#comments, div.wiki h2 {
+	color: #444;
+	clear:both;
+	display: block;
+	position: relative;
+	height: 30px;
+	width: 637px;
+	left: -52px;
+	background: url(art/header_gray.png) no-repeat !important;
+	background: url(art/header_gray.gif) no-repeat;
+	padding: 5px 8px 0px 12px;
+	z-index: 1;
+	margin-bottom: 6px;
+	font-size: 14px !important;
+}
+div.wiki h2 a {
+	color: #444 !important;
+}
+div.post div.comments textarea {
+	width: 550px;
+}
+div.post div.comments dl dt small {
+	float: right;
+}
+div.post div.comments dt {
+	background-color: #f3f3f0;
+	border: solid #e5e5e5;
+	border-width: 1px 0px 1px 0px;
+	width: 567px;
+	position: relative;
+	left: -18px;
+	padding: 5px 19px 5px 19px;
+	margin: 8px 0px 10px 0px;
+}
+
+/*	post footer	*/
+div.postmetadata {
+	color: #999;
+	margin-left: 4px;
+}
+
+/*	tabber	*/
+#tabBox {width: 543px}
+#tabBox #tabSet, .tabSet {
+	margin: 0;
+	padding: 0 0 0 6px;
+	height: 26px;
+	width: auto;
+	background: url(art/tab-bkg.gif) bottom left repeat-x;
+}
+
+
+#tabBox #tabSet li:before, .tabSet li:before {
+	content: "" !important;
+}
+
+#tabBox #tabSet li, .tabSet li {
+	list-style-type: none;
+	background: url(art/tab-off-l.gif) top left no-repeat;
+	float: left;
+	margin: 0 2px 0 0 !important;
+	padding: 0 0 0 14px !important;
+	cursor: pointer;
+}	
+#tabBox #tabSet li a, .tabSet li a {
+	background: url(art/tab-off-r.gif) top right no-repeat;
+	display: block;
+	float: left;
+	height: 24px;
+	line-height: 26px;
+	*overflow: hidden;
+	color: #545454;
+	font-family: arial;
+	font-size: 10pt;
+	font-weight: bold;
+	padding: 2px 12px 0 0;
+	text-decoration: none;
+}
+
+#tabBox #tabSet li.on, .tabSet li.on {
+	background: url(art/tab-on-l.gif) top left no-repeat;
+}	
+#tabBox #tabSet li.on a, .tabSet li.on a {
+	background: url(art/tab-on-r.gif) top right no-repeat;
+	color: #333;
+}
+
+#tabBox #panelSet, div.panelSet {
+	padding: 10px;
+	border:solid 1px #ccc;
+	border-top: 0px;
+	background: #fff;
+}
+
+#tabBox #panelSet dt.stretchtoggle div.dtRight, .panelSet dt.stretchtoggle div.dtRight {
+	background: #fff url(art/acdn-headr-back.gif) right no-repeat;
+}
+
+.blue {
+	background-color: #66ffff;
+}
+		
+.toolTipElement {
+	cursor: help;
+}
+
+.tool-tip {
+	color: #fff;
+	width: 172px;
+	z-index: 13000;
+}
+
+.tool-title {
+  font: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	margin: 0;
+	padding: 8px 8px 4px;
+	background: url(art/bubble.png) top left !important;
+	background: url(art/bubble.gif) top left;
+}
+
+.tool-text {
+	font-size: 11px;
+	margin: 0px;
+	padding: 4px 8px 8px;
+	background: url(art/bubble.png) bottom right !important;
+	background: url(art/bubble.gif) bottom right;
+}
+
+
+/*	syntax hilights	*/
+div.code {
+	width: 95%;
+}
+.rawScript {
+	display: none;
+}
+.syntax_hilite {
+	width: 100% !important;
+	height: 100% !important;
+	padding: 0px;
+	margin: 0px;
+}
+.igBar {
+	background: url(art/top_nav_back.gif);
+	border: solid #414141;
+	border-width: 1px 2px 0px 1px;
+	height: 15px;
+	height: 16px !important;
+	position: relative;
+	left: -1px;
+	width: 100% !important;
+	padding-top: 1px;
+	padding-top: 0px !important;
+	
+}
+.igBar a, .igBar a:hover {
+	font-weight: normal !important;
+	font-size: 9px;
+	text-transform: lowercase;
+	color: #fff !important;
+}
+.javascript {
+	font-size: 11px;
+	width: 95%;
+	margin: 10px 0px 0px 10px;
+}
+.langName {
+	margin: 10px 0px 0px 10px;
+}
+.resizeMe {
+	cursor: nw-resize;
+	float: right;
+	border: none !important;
+	position: relative;
+	left: 13px;
+}
+div.single .resizeMe {
+	left: 0px !important;
+}
+.executeCodeImg {
+	float: right;
+	position: relative;
+	top: -14px;
+	border: none !important;
+	cursor: pointer;
+}
+.resizeMe {
+	cursor: nw-resize;
+	float: right;
+	border: none !important;
+}
+
+blockquote {
+  background: transparent url(art/bg_blockquote.gif) no-repeat 0 5px;
+  color: #747474; 
+  padding-left: 35px;
+	margin-bottom: 12px;
+}
+
+/*	body > right col	*/
+#rightCol {
+	font-size:11px;
+	width:173px;
+	float: left;
+	margin: 10px 15px 10px 15px !important;
+	margin: 10px 5px 10px 25px;
+	color: #fff;
+}
+#rightCol a {
+	color: #ccff00;
+}
+
+#rightCol ul {
+	list-style: none;
+}
+#rightCol ul ul {
+	padding-left: 3px;
+}
+#rightCol ul li {
+	background: url(art/raquo.gif) left 5px no-repeat;
+	padding-left: 8px;
+}
+#rightCol h3 {
+	padding: 9px 0px 2px 0px;
+}
+#subscribeSection p {
+	margin-bottom: 10px;
+}
+#emailSubscribe {
+	font: 9px Verdana, Helvetica, Arial, sans-serif;
+	padding: 0px 0px 1px 2px;
+	margin-right: 2px;
+	position: relative;
+	top: -2px;
+	height: 11px;
+	width: 100px;
+	background-color: #bcbcbc;
+	color: #5e5e5e;
+	border: 1px solid #414141;
+}
+#subscribebtn {
+	position: relative;
+	top: -3px;
+}
+
+div.digg_button {
+	float: right;
+	width: 53px;
+	height: 81px;
+	margin-left: 10px;
+}
+

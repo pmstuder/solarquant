@@ -1,0 +1,152 @@
+2014-05-31 15:55:00test data 
+2014-05-31 15:55:33test data 
+2014-05-31 15:55:34test data 
+2014-05-31 15:55:35test data 
+2014-05-31 22:14:42 start of generate new pattern sets 
+2014-05-31 22:14:43 start of generate new pattern sets 
+2014-05-31 22:15:05 start of generate new pattern sets 
+2014-05-31 22:15:16 start of generate new pattern sets 
+2014-05-31 22:16:29 start of generate new pattern sets 
+2014-05-31 22:24:27 start of generate new pattern sets 
+2014-06-02 14:08:14 start of generate new pattern sets 
+2014-06-02 14:08:51 start of generate new pattern sets 
+2014-06-02 14:09:32 start of generate new pattern sets 
+2014-06-02 14:09:40 start of generate new pattern sets 
+2014-06-02 14:10:00 start of generate new pattern sets 
+2014-06-02 14:10:39 start of generate new pattern sets 
+2014-06-02 14:28:15 start of generate new pattern sets 
+2014-06-02 14:28:33 start of generate new pattern sets 
+2014-06-02 14:29:05 start of generate new pattern sets 
+2014-06-08 15:40:02 start of generate new pattern sets 
+2014-06-08 15:51:25 start of generate new pattern sets 
+2014-06-08 15:57:29 start of generate new pattern sets 
+2014-06-08 16:08:48 start of generate new pattern sets 
+2014-06-08 16:09:00 start of generate new pattern sets 
+2014-06-08 16:12:15 start of generate new pattern sets 
+2014-06-08 16:15:34 start of generate new pattern sets 
+2014-06-08 16:27:28 start of generate new pattern sets 
+2014-06-08 16:28:03 start of generate new pattern sets 
+2014-06-09 23:31:08 start of generate new pattern sets 
+2014-06-10 19:05:20 start of generate new pattern sets 
+2014-06-12 14:31:48 start of generate new pattern sets 
+2014-06-12 14:37:26 start of generate new pattern sets 
+2014-06-12 14:39:16 start of generate new pattern sets 
+2014-06-12 14:44:20 start of generate new pattern sets 
+2014-06-12 14:45:04 start of generate new pattern sets 
+2014-06-12 14:45:25 start of generate new pattern sets 
+2014-06-12 14:47:06 start of generate new pattern sets 
+2014-06-12 14:47:26 start of generate new pattern sets 
+2014-06-12 22:37:57 start of generate new pattern sets 
+2014-06-12 22:39:34 start of generate new pattern sets 
+2014-06-12 22:39:38 start of generate new pattern sets 
+2014-06-12 22:44:05 start of generate new pattern sets 
+2014-06-12 23:14:37 start of generate new pattern sets 
+2014-06-12 23:15:00 start of generate new pattern sets 
+2014-06-12 23:47:29 start of generate new pattern sets 
+2014-06-12 23:47:37 start of generate new pattern sets 
+2014-06-12 23:56:37 start of generate new pattern sets 
+2014-06-14 22:55:30 start of generate new pattern sets 
+2014-06-14 22:56:03 start of generate new pattern sets 
+2014-06-14 22:56:31 start of generate new pattern sets 
+2014-06-14 22:56:35 start of generate new pattern sets 
+2014-06-14 22:57:55 start of generate new pattern sets 
+2014-06-14 22:59:25 start of generate new pattern sets 
+2014-06-14 23:00:12 start of generate new pattern sets 
+2014-06-14 23:00:26 start of generate new pattern sets 
+2014-06-14 23:00:28 start of generate new pattern sets 
+2014-06-14 23:08:52 start of generate new pattern sets 
+2014-06-14 23:09:05 start of generate new pattern sets 
+2014-06-14 23:11:49 start of generate new pattern sets 
+2014-06-14 23:12:07 start of generate new pattern sets 
+2014-06-14 23:14:19 start of generate new pattern sets 
+2014-06-14 23:15:03 start of generate new pattern sets 
+2014-06-14 23:15:12 start of generate new pattern sets 
+2014-06-14 23:17:39 start of generate new pattern sets 
+2014-06-14 23:18:46 start of generate new pattern sets 
+2014-06-14 23:21:12 start of generate new pattern sets 
+2014-06-14 23:23:04 start of generate new pattern sets 
+2014-06-14 23:24:18 start of generate new pattern sets 
+2014-06-14 23:24:57 start of generate new pattern sets 
+2014-06-14 23:48:53 start of generate new pattern sets 
+2014-06-14 23:49:06 start of generate new pattern sets 
+2014-06-14 23:57:44 start of create training files 
+2014-06-14 23:58:45 start of create training files 
+2014-06-14 23:59:17 start of create training files 
+2014-06-15 00:00:36 start of create training files 
+2014-06-15 00:02:03 start of create training files 
+2014-06-15 00:02:21 start of create training files 
+2014-06-15 00:02:44 start of create training files 
+2014-06-16 22:50:05 start of create training files 
+2014-06-19 22:39:07 start of create training files 
+2014-06-19 22:39:35 start of create training files 
+2014-06-19 22:41:32 start of create training files 
+2014-06-19 22:43:31 start of create training files 
+2014-06-19 22:44:30 start of create training files 
+2014-06-19 22:44:52 start of create training files 
+2014-06-19 22:45:16 start of create training files 
+2014-06-19 22:45:38 start of create training files 
+2014-06-19 22:46:26 start of create training files 
+2014-06-19 22:52:53 start of create training files 
+2014-06-19 22:54:37 start of create training files 
+2014-06-19 22:55:07 start of create training files 
+2014-06-19 22:56:16 start of create training files 
+2014-06-19 22:56:30 start of create training files 
+2014-06-19 22:56:59 start of create training files 
+2014-06-19 22:57:00 start of create training files 
+2014-06-19 23:00:06 start of create training files 
+2014-06-19 23:00:37 start of create training files 
+2014-06-19 23:00:57 start of create training files 
+2014-06-19 23:01:53 start of create training files 
+2014-06-19 23:02:51 start of create training files 
+2014-06-19 23:03:43 start of create training files 
+2014-06-19 23:04:29 start of create training files 
+2014-06-19 23:06:33 start of create training files 
+2014-06-19 23:08:42 start of create training files 
+2014-06-28 14:51:07 start of create training files 
+2014-06-28 14:53:04 start of create training files 
+2014-06-28 14:53:57 start of create training files 
+2014-06-28 14:54:48 start of create training files 
+2014-06-28 14:55:16 start of create training files 
+2014-06-28 14:55:51 start of create training files 
+2014-06-28 14:56:09 start of create training files 
+2014-06-28 14:57:16 start of create training files 
+2014-06-28 14:58:20 start of create training files 
+2014-06-28 15:08:52 start of create training files 
+2014-06-28 15:09:50 start of create training files 
+2014-06-28 15:10:07 start of create training files 
+2014-06-28 15:10:11 start of create training files 
+2014-06-28 15:10:48 start of create training files 
+2014-06-28 15:11:44 start of create training files 
+2014-06-28 15:26:12 start of create training files 
+2014-06-28 18:01:55 start of generate new pattern sets 
+2014-06-28 18:04:15 start of generate new pattern sets 
+2014-06-28 18:04:29 start of generate new pattern sets 
+2014-06-28 18:05:02 start of generate new pattern sets 
+2014-06-28 18:06:13 start of generate new pattern sets 
+2014-06-28 18:07:05 start of generate new pattern sets 
+2014-06-28 18:08:43 start of generate new pattern sets 
+2014-08-25 10:54:22 start of generate new pattern sets 
+2014-08-25 10:58:15 start of generate new pattern sets 
+2014-08-25 11:08:06 start of generate new pattern sets 
+2014-08-25 11:09:08 start of generate new pattern sets 
+2014-08-25 11:09:36 start of generate new pattern sets 
+2014-08-25 11:42:24 start of generate new pattern sets 
+2014-08-25 11:46:41 start of generate new pattern sets 
+2014-08-25 11:49:18 start of generate new pattern sets 
+2014-08-25 11:49:33 start of generate new pattern sets 
+2014-08-25 11:49:57 start of generate new pattern sets 
+2014-08-25 11:50:48 start of generate new pattern sets 
+2014-08-25 11:53:10 start of generate new pattern sets 
+2014-08-25 11:53:39 start of generate new pattern sets 
+2014-08-25 11:54:26 start of generate new pattern sets 
+2014-08-25 11:57:11 start of generate new pattern sets 
+2014-08-25 11:59:54 start of generate new pattern sets 
+2014-08-25 12:04:05 start of generate new pattern sets 
+2014-08-25 12:15:50 start of generate new pattern sets 
+2014-08-25 12:40:20 start of generate new pattern sets 
+2014-08-25 13:26:17 start of generate new pattern sets 
+2014-08-25 15:25:34 start of generate new pattern sets 
+2014-09-07 16:50:50 start of create training files 
+2014-09-07 17:12:10 start of create training files 
+2014-09-08 06:32:01 start of create training files 
+2014-09-08 06:32:54 start of create training files 

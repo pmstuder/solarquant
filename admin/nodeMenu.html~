@@ -1,0 +1,28 @@
+<!DOCTYPE public "-//w3c//dtd html 4.01 transitional//en" 
+		"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+	<title>solarNetwork.Admin</title>
+	<link href="../includes/solarStyle.css" type="text/css" rel="stylesheet">
+<link href="../includes/calendar.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="../includes/calendar.js"></script>
+</head>
+
+<body bgcolor='#BFBFBF'>
+
+<div align="right">Nodes</div>
+
+
+
+<table border="0" cellspacing="2" cellpadding="2" bgcolor="#BFBFBF">
+<tr>
+    <td><a href="../php/addAveragesForm.php" target="displayContent"><img src="images/add.gif" width="94" height="25" border="0" alt=""></a></td>
+    <td><a href="../php/nodeAction.php?function=list&type=actual" target="displayContent"><img src="images/list.gif" width="94" height="25" border="0" alt=""></a></td>
+ <td><a href="../php/nodeAction.php?function=list" target="displayContent"><span class="solar4">List All</span></a></td>
+</tr>
+</table>
+
+
+</body>
+</html>

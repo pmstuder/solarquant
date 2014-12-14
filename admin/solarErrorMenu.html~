@@ -1,0 +1,26 @@
+<!DOCTYPE public "-//w3c//dtd html 4.01 transitional//en" 
+		"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+	<title>solarNetwork.Admin</title>
+</head>
+
+<body bgcolor='#BFBFBF'>
+
+<div align="right">Errors</div>
+
+
+
+<table border="0" cellspacing="2" cellpadding="2" bgcolor="#BFBFBF">
+<tr>
+
+    <td><a href="../php/solarErrorAction.php?function=list" target="displayContent"><img src="images/list.gif" width="94" height="25" border="0" alt=""></a></td>
+<td><a href="../php/solarErrorAction.php?function=clear" target="displayContent"><img src="images/clear.gif" width="94" height="25" border="0" alt=""></a></td>
+
+</tr>
+</table>
+
+
+</body>
+</html>

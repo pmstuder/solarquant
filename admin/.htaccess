@@ -1,0 +1,7 @@
+# Begin password protection #
+AuthName "Password Protected"
+Require valid-user
+AuthUserFile "/home/users/web/b1753/moo.needle/admin/.htpasswd"
+AuthType basic
+# End password protection #
+
